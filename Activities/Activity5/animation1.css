@@ -1,0 +1,145 @@
+.container{
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  border: outset 20px pink;
+  position: relative;
+  overflow: hidden;
+}
+.background{
+  width: 100%;
+}
+.msg{
+  position: absolute;
+  top: 40%;
+  bottom: 40%;
+  left: 20%;
+  right: 20%;
+  text-align: center;
+  animation: zoomMSG 10s forwards;
+}
+@keyframes zoomMSG {
+    0%{transform: scale(0) translate(0,0);}
+    25%{transform: scale(1); color: red;}
+    50%{transform: scale(0.3) translate(100px, 50px); color: purple;}
+    75%{transform: scale(2); color: white;}
+    100%{transform: scale(0) translate(-500px, -500px); color: orange;}
+}
+.camera{
+  position: absolute;
+  top: 5%;
+  bottom: 10%;
+  left: 20%;
+  right: 20%;
+  text-align: center;
+  animation: zoomMSG 10s forwards;
+}
+.img_heart1{
+  position: absolute;
+  size: 6px;
+  top: 5%;
+  bottom: 20%;
+  left: 10%;
+  right: 20%;
+  text-align: center;
+  animation: zoomMSG 10s forwards;
+}
+.img_heart2{
+  position: absolute;
+  top: 15%;
+  bottom: 30%;
+  left: 10%;
+  right: 20%;
+  text-align: center;
+  animation: zoomMSG 10s forwards;
+}
+.img_heart3{
+  position: absolute;
+  top: 30%;
+  bottom: 40%;
+  left: 10%;
+  right: 20%;
+  text-align: center;
+  animation: zoomMSG 10s forwards;
+}
+.img_heart4{
+  position: absolute;
+  top: 40%;
+  bottom: 50%;
+  left: 10%;
+  right: 20%;
+  text-align: center;
+  animation: zoomMSG 10s forwards;
+}
+.img_heart5{
+  position: absolute;
+  top: 50%;
+  bottom: 60%;
+  left: 10%;
+  right: 20%;
+  text-align: center;
+  animation: zoomMSG 10s forwards;
+}
+.img_heart6{
+  position: absolute;
+  top: 60%;
+  bottom: 70%;
+  left: 10%;
+  right: 20%;
+  text-align: center;
+  animation: zoomMSG 10s forwards;
+}
+.img_heart7{
+  position: absolute;
+  top: 75%;
+  bottom: 80%;
+  left: 10%;
+  right: 20%;
+  text-align: center;
+  animation: zoomMSG 10s forwards;
+}
+.img_heart8{
+  position: absolute;
+  top: 80%;
+  bottom: 90%;
+  left: 10%;
+  right: 20%;
+  text-align: center;
+  animation: zoomMSG 10s forwards;
+}
+.img_heart9{
+  position: absolute;
+  top: 90%;
+  bottom: 100%;
+  left: 10%;
+  right: 20%;
+  text-align: center;
+  animation: zoomMSG 10s forwards;
+}
+.img_heart10{
+  position: absolute;
+  top: 75%;
+  bottom: 45%;
+  left: 10%;
+  right: 20%;
+  text-align: center;
+  animation: zoomMSG 10s forwards;
+}
+.img_heart11{
+  position: absolute;
+  top: 60%;
+  bottom: 20%;
+  left: 10%;
+  right: 20%;
+  text-align: center;
+  animation: zoomMSG 10s forwards;
+}
+.img_heart12{
+  position: absolute;
+  top: 60%;
+  bottom: 20%;
+  left: 10%;
+  right: 20%;
+  text-align: center;
+  animation: zoomMSG 10s forwards;
+}

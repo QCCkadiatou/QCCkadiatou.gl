@@ -1,0 +1,123 @@
+*{box-sizing: border-box;}
+html{
+  scroll-behavior: smooth;
+}
+:root{
+  --primaryColor:#f8bbd0;
+  --primaryLight:#ffeeff;
+  --primaryDark:#c48b9f;
+}
+/* title */
+.title{
+  color:var(--primaryColor);
+  text-align: center;
+  font-size: 5em;
+  text-shadow: 2px 2px 5px var(--primaryDark);
+}
+/* navigation tabs */
+.navigation{
+background-color: var(--primaryColor);
+}
+.navigation a{
+  display: inline-block;
+  width: 33%;
+  text-align: center;
+  padding: 1em 0px;
+  background-color: var(--primaryDark);
+  text-decoration: none;
+  color: var(--primaryLight);
+  font-size: 1.2em;
+}
+.navigation a:hover{
+  background-color: var(--primaryLight);
+  color: var(--primaryDark);
+  text-decoration: inline-block;
+}
+/* -- cards --*/
+.cardContainer{
+  border: solid grey;
+display: inline-block;
+}
+.card{
+border: solid yellow;
+  background-color: var(--primaryColor);
+  text-shadow: 2px 2px 5px var(--primaryDark);
+  width: 20%;
+  margin: 2.5%;
+  float: left;
+}
+.imgCard{
+  width: 100%;
+}
+.titleCard{
+  text-align: center;
+}
+.pCard{
+  padding: 0.5em;
+overflow: hidden;
+}
+.creditCard{
+  padding: 0.5em;
+  font-size: 0.7em;
+  font-style: italic;
+}
+/*footer information*/
+.footerInfo{
+  text-align: center;
+  margin-top: ridge 1px var(--primaryLight);
+  border-color: var(--primaryDark);
+  padding: 1em 0em;
+}
+/*-- large resolution--*/
+@media only screen and (max-width: 1350px){
+  body{
+    background-color: lightblue;
+  }
+.pCard{
+  height: 15em;
+}
+}
+/*--medium resolution tablet --*/
+@media only screen and (max-width: 1140px){
+  body{
+background-color: orange;
+}
+.card{
+  width: 40%;
+  margin-left: 6%;
+}
+.pCard{
+  height: 11em;
+}
+}
+/* --- medium resolution mini tablet --*/
+@media only screen and (max-width:850px){
+body{
+  background-color: purple;
+}
+.navigation a{
+  width: 32.5%;
+}
+.pCard{
+  height: 14em;
+}
+/* --small resolution: large smartphone --*/
+body{
+  background-color: lightgreen;
+}
+.navigation{
+  width: 100%;
+  margin-bottom: 1px;
+}
+.card{
+  width: 80%;
+  margin-left: 10%;
+}
+/*-- small resolution: small smartphone--*/
+@media only screen and (mac-width:500px){
+  body{
+    background-color: lightgrey;
+  }
+.title{
+  font-size: 3em;
+}

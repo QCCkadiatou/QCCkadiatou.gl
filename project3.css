@@ -1,0 +1,82 @@
+:root{
+  --primary:#b175ff;
+  --primaryDark:#7d47cb;
+  --primaryLight:#e6a5ff;
+}
+
+.name{
+  background-color: var(--primary);
+  font-family: "cooper black";
+}
+.navbar{
+  background-color: var(--primaryDark);
+  opacity: 0.9;
+  padding-left: 1em;
+}
+.subtitle{
+  font-family:
+  "monotype corsiva";
+  text-align: center;
+}
+.introImage img{
+  width: 200px;
+  height: 200px;
+}
+.major, .department,{
+  text-align: center;
+  display: block;
+animation: slidesubtitle 2s forwards;
+animation-timing-function: ease-in;
+animation-delay: 5s;
+overflow: hidden;
+
+}
+.cardhtml{
+  box-shadow: 5px 5px 3px gray;
+}
+.cactivty{
+  background-color: var(--primary);
+
+}
+ .template1{
+  text-align: center;
+  font-size: 30px;
+  font-family: inherit;
+  background-color: var(--primaryLight);
+  font-family: sans-serif;
+  color: black;
+}
+.template2{
+  text-align: center;
+  font-size: 30px;
+  font-family: inherit;
+  background-color: var(--primaryLight);
+  font-family: sans-serif;
+  color: black;
+}
+@keyframes slideLeftRight {
+  from{transform: translateX(-100%);}
+  to{transform: translateX(0%);}
+}
+
+.title{
+  animation: slideLeftRight 5s forwards;
+  animation-timing-function: ease-in;
+}
+.quote{
+  animation: slideRightLeft 5s forwards;
+  animation-timing-function: ease-in;
+
+}
+@keyframes slideRightLeft {
+  from{transform: translateX(100%);}
+  to{transform: translateX(0%);}
+}
+  .col-lg-12{
+    font-style: italic;
+    font-size: 80%;
+}
+/*-- FOOTER --*/
+.footer{
+  background-color: var(--primaryDark);
+}
